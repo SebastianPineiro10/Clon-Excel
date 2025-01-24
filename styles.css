@@ -1,0 +1,55 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif; /* Establece una fuente moderna y legible */
+    display: flex; /* Utiliza flexbox para organizar los elementos */
+    flex-direction: column; /* Coloca los elementos de manera vertical */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 20px; /* Añade un poco de espacio alrededor de los elementos */
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 24px; /* Tamaño de fuente grande para el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilo para los botones */
+.controls {
+    margin-bottom: 20px; /* Espacio entre los botones y la tabla */
+}
+
+button {
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    margin: 5px; /* Espaciado entre los botones */
+    font-size: 16px; /* Tamaño de texto en los botones */
+    cursor: pointer; /* Cambia el cursor cuando el mouse pasa sobre el botón */
+    border: none; /* Elimina el borde del botón */
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button:hover {
+    background-color: #45a049; /* Cambia el color del botón al pasar el mouse */
+}
+
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse; /* Elimina los bordes dobles entre celdas */
+    width: 80%; /* Establece el ancho de la tabla al 80% de la pantalla */
+}
+
+/* Estilo para las celdas */
+td {
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 10px; /* Espaciado dentro de las celdas */
+    text-align: center; /* Centra el texto dentro de las celdas */
+    width: 100px; /* Ancho fijo para cada celda */
+    height: 40px; /* Altura fija para cada celda */
+}
+
+/* Fondo gris claro para celdas vacías */
+td:empty {
+    background-color: #f9f9f9; /* Fondo gris claro para celdas vacías */
+}
