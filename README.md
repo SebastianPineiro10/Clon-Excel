@@ -2,6 +2,10 @@
 
 ¡Bienvenido al **Clon de Excel**! Este es un proyecto interactivo donde puedes crear hojas de cálculo dinámicas utilizando **HTML**, **CSS**, y **JavaScript**. Puedes agregar datos, guardarlos, cargarlos, y exportarlos a formato CSV, todo desde tu navegador. Es una excelente demostración de cómo manejar datos de manera sencilla sin necesidad de una base de datos.
 
+## Manual
+
+[**De 0 a Programador: Crea tu Primer Clon de Excel con HTML, CSS y JavaScript**](https://raw.githubusercontent.com/SebastianPineiro10/Clon-Excel/ace09ba5660d6b96089b7299d746430829771c17/De%200%20a%20Programador-%20Crea%20tu%20Primer%20Clon%20de%20Excel%20con%20HTML%2C%20CSS%20y%20JavaScript.pdf)
+
 ## 🌟 Características
 
 - **Crear Hojas de Cálculo Dinámicas**: Crea una tabla editable similar a Excel.
