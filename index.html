@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8"> <!-- Definimos la codificación de caracteres,
-permitiendo usar tildes y caracteres especiales -->
-<meta name="viewport" content="width=device-width, initial-
-scale=1.0"> <!-- Hace que la página sea responsive -->
+<meta charset="UTF-8"> <!-- Definimos la codificación de caracteres, permitiendo usar tildes y caracteres especiales -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
 <title>Clon de Excel en JavaScript</title> <!-- Título de la página -->
-<link rel="stylesheet" href="styles.css"> <!-- Vincula el archivo CSS
-para los estilos -->
+<link rel="stylesheet" href="styles.css"> <!-- Vincula el archivo CSS para los estilos -->
 </head>
 <body>
-<h1>Clon de Excel</h1> <!-- Título principal de la página -->
+    <h1>Clon de Excel</h1> <!-- Título principal de la página -->
+
 <!-- Contenedor de los botones para la interacción con la hoja de cálculo -->
 <div class="controls">
 <button id="saveButton">Guardar</button> <!-- Botón para guardar datos -->
 <button id="loadButton">Cargar</button> <!-- Botón para cargar datos guardados -->
 <button id="exportButton">Exportar CSV</button> <!-- Botón para exportar datos a CSV -->
 </div>
+
 <!-- Tabla donde se generará la hoja de cálculo -->
 <table id="spreadsheet"></table> <!-- Aquí se generará la tabla dinámicamente -->
+
 <script src="script.js"></script> <!-- Vincula el archivo JavaScript para la lógica -->
 </body>
 </html>
